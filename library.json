@@ -5,8 +5,11 @@
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/vjmuzik/NativeEthernet.git"
+    "url": "https://github.com/ktgilliam/NativeEthernet.git"
   },
   "frameworks": "arduino",
-  "platforms": "teensy"
+  "platforms": "teensy",
+  "build": {
+	  "extraScript": "pre:extra_script.py"
+  }
 }
